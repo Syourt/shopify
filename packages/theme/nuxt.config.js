@@ -87,8 +87,8 @@ export default {
         ]
       },
       shopify: {
-        domain: "vsf-next-pwa.myshopify.com",
-        storefrontAccessToken: "03f21475b97c18fa05c0ab452c368af4",
+        domain: 'treesz-development.myshopify.com',
+        storefrontAccessToken: 'e2e3a75f94d23f4362edf91084a6f066'
       },
       i18n: {
         useNuxtI18nConfig: true
@@ -101,39 +101,19 @@ export default {
     'vue-scrollto/nuxt'
   ],
   i18n: {
-    currency: 'USD',
-    country: 'US',
+    currency: 'EUR',
+    country: 'NL',
     countries: [
-      { name: 'US',
-        label: 'United States' },
-      { name: 'AT',
-        label: 'Austria' },
-      { name: 'DE',
-        label: 'Germany' },
-      { name: 'NL',
-        label: 'Netherlands' }
+      { name: 'NL', label: 'Netherlands' }
     ],
     currencies: [
-      { name: 'EUR',
-        label: 'Euro' },
-      { name: 'USD',
-        label: 'Dollar' }
+      { name: 'EUR', label: 'Euro' }
     ],
     locales: [
-      {
-        code: 'en',
-        label: 'English',
-        file: 'en.js',
-        iso: 'en'
-      },
-      {
-        code: 'de',
-        label: 'German',
-        file: 'de.js',
-        iso: 'de'
-      }
+      { code: 'en', label: 'English', file: 'en.js', iso: 'en' },
+      { code: 'nl', label: 'Nederlands', file: 'nl.js', iso: 'nl' }
     ],
-    defaultLocale: 'en',
+    defaultLocale: 'nl',
     lazy: true,
     seo: true,
     langDir: 'lang/',

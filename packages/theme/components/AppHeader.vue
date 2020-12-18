@@ -6,9 +6,10 @@
     @click:account="handleAccountClick"
     @enter:search="changeSearchTerm"
     @change:search="(p) => (term = p)"
-    :searchValue="term"
-    :cartItemsQty="cartTotalItems"
-    :accountIcon="accountIcon"
+    :search-value="term"
+    :cart-items-qty="cartTotalItems"
+    :account-icon="accountIcon"
+    :search-placeholder="$t('Search for products')"
     class="sf-header--has-mobile-search"
   >
     <!-- TODO: add mobile view buttons after SFUI team PR -->
